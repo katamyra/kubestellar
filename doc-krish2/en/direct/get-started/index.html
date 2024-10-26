@@ -3261,11 +3261,13 @@
 <p>A <strong>quick automated setup</strong> using our installation script, which creates a basic working environment for those who want to start experimenting right away. </p>
 </li>
 </ol>
-<p>Both approaches create a basic environment suitable for learning, but remember that KubeStellar supports more sophisticated configurations including:
-- Multiple Independent Target Spaces (ITS)
-- Multiple Workload Distribution Spaces (WDS)
-- Dynamic addition and removal of Work Execution Clusters (WECs)
-- Various deployment patterns to suit different organizational needs</p>
+<p>Both approaches create a basic environment suitable for learning, but remember that KubeStellar supports more sophisticated configurations including:</p>
+<ul>
+<li>Multiple Independent Target Spaces (ITS)</li>
+<li>Multiple Workload Distribution Spaces (WDS)</li>
+<li>Dynamic addition and removal of Work Execution Clusters (WECs)</li>
+<li>Various deployment patterns to suit different organizational needs</li>
+</ul>
 <h2 id="quick-start-using-the-automated-script">Quick Start Using the Automated Script<a class="headerlink" href="#quick-start-using-the-automated-script" title="Permanent link">#</a></h2>
 <p>If you want to quickly setup a basic environment, you can use our automated installation script:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.24.0/hack/check_pre_req.sh<span class="o">)</span><span class="w"> </span>kflex<span class="w"> </span>ocm<span class="w"> </span>helm<span class="w"> </span>kubectl<span class="w"> </span>docker<span class="w"> </span>kind
